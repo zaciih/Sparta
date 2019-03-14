@@ -1,0 +1,63 @@
+body {
+  height: 100vh;
+  background-color: darkgrey;
+  font-family: sans-serif;
+
+}
+
+nav {
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin: 0px;
+}
+
+a {
+color: inherit;
+  text-decoration: none;
+}
+
+.heading {
+  background-color: red;
+  height: 20%;
+}
+
+.heading div {
+  display: inline-block;
+}
+
+.heading-image {
+  height: 100%;
+  background-color: yellow;
+  width: 20%;
+  border-radius: 50%;
+}
+
+.site-name {
+  float: right;
+  font-size: 100px;
+  padding-right: 45%;
+}
+
+.main-content {
+  column-count: 3;
+  column-gap: 10px;
+}
+
+section {
+  background-color: green;
+}
+
+.image {
+  background-color: lightblue;
+  height: 200px;
+}
+
+.section-title {
+  height: 40px;
+}
+
+.section-content {
+  height: 200px;
+  background-color: gainsboro;
+}

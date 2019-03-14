@@ -1,0 +1,14 @@
+<nav>
+  <a href="/">Home</a>
+  <a href="/new">New Post</a>
+</nav>
+
+<h1>This is Page 1</h1>
+
+<% @pages.each do |page| %>
+</div>
+  <div class="">
+    <h3><a href="/<%= page[:id] %>"><%= page[:title] %></a></h3>
+    <p><%= page[:body] %></p>
+  </div>
+<% end %>

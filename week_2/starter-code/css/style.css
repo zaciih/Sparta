@@ -1,0 +1,51 @@
+body {
+  font-family: Raleway, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  background-color: black;
+}
+
+nav img {
+  height: 30%;
+  width: 30%;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 20%;
+}
+
+.intro-content, .main-content {
+  padding-left: 80px;
+}
+
+.intro-content img, .main-content img {
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+  border: solid medium black;
+}
+
+.screenshot-section img {
+  height: 30%;
+  width: 30%;
+  border-radius: 10%;
+  border: solid medium black;
+}
+
+h1, h4 {
+  color:#E13A63
+}
+
+nav ul a:hover {
+  background-color: grey;
+}

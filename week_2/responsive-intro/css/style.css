@@ -1,0 +1,75 @@
+/* .left, .right {
+  width: 30%;
+  height: 400px;
+  float: left;
+}
+
+.left {
+  background-color: gainsboro;
+}
+
+.right {
+  background-color: fuchsia;
+}
+
+@media screen and (max-width: 550px){
+  .left, .right {
+    margin: 0 50px;
+    width: 80%;
+  }
+
+  .left {
+    background-color: limegreen;
+  }
+
+  .right {
+    background-color: red;
+  }
+} */
+
+body {
+  margin: 0;
+}
+
+.bar {
+  height: 100vh;
+  width: 33vw;
+  float:left;
+}
+
+.left {
+  background-color: black;
+}
+
+.center {
+  background-color: yellow;
+}
+
+.right {
+  background-color: red;
+}
+
+@media (max-width: 550px) {
+  .bar {
+    height: 33vh;
+    width: 100vw;
+  }
+  /* .right {
+    background-color: yellow;
+  }
+
+  .center {
+    background-color: red;
+  } */
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .right {
+    order:2;
+  }
+  .center {
+    order:3;
+  }
+
+}

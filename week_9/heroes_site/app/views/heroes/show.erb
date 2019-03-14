@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="card">
+      <div class="img-container">
+        <img class="text-center" src="<%= @hero['icon_url']['92x93'] %>"  alt="" style="width:30%; margin:auto;">
+      </div>
+      <div class="card-container">
+        <h2><b><%= @hero['name'] %></b></h2>
+        <h4><b><%= @hero['role'] %></b></h4>
+        <h4><b><%= @hero['type'] %></b></h4>
+        <h5><b>Released: <%= @hero['release_date'] %></b></h5>
+      </div>
+  </div>
+</div>
+  <div class="ability_container">
+    <% @hero['abilities'].each do |ability| %>
+      <div class="card" style="width: 50rem;">
+        <div class="card-container">
+          <h5><b><%= ability["title"] %> <%= ability['name'] %></b></h5>
+          <h5><%= ability["description"] %></h5>
+        </div>
+      </div>
+    <% end %>
+  </div>

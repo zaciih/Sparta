@@ -1,0 +1,18 @@
+/* p {
+  color: pink;
+}
+
+.important {
+  font-size: 30px;
+  color: blue;
+} */
+
+.another > p {
+  color: orange;
+
+}
+
+ul > li:nth-child(odd) {
+  font-size: 30px;
+  color: red;
+}
